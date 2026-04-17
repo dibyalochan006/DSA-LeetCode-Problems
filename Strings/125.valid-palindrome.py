@@ -2,7 +2,12 @@
 # @lc app=leetcode id=125 lang=python3
 #
 # [125] Valid Palindrome
-#
+#Traverse the string
+ #Store only alphanumeric characters in a list
+ #Convert all characters to lowercase
+ #Compare the list with its reverse
+ #If both are same → palindrome, else not 
+ # Space complexity : O(n) Time Complexity : O(n)
 
 # @lc code=start
 class Solution:
